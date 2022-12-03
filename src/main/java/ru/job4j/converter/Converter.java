@@ -20,6 +20,6 @@ public class Converter {
         float expectedE = inE/60;  //не знал как переменную в переод потавить (10/3=3,3333333в переоде)
         float outE = Converter.rubleToDollar(in);
         boolean passedE = expectedE == outE;
-        System.out.println(" 140 rubles are "+ expectedE +" Dollars . Test result :  " + passedE);
+        System.out.println("140 rubles are "+ expectedE +" Dollars . Test result :  " + passedE);
     }
 }
